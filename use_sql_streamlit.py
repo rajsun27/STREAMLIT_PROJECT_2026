@@ -3,7 +3,7 @@ import re
 from contextlib import contextmanager
 
 import pandas as pd
-import psycopg2  # type: ignore[import-not-found]
+import psycopg2  # type: signore[import-not-found]
 import streamlit as st
 from psycopg2 import sql  # type: ignore[import-not-found]
 
